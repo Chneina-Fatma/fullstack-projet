@@ -1,0 +1,598 @@
+
+.APP{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px !important;
+  }
+  
+  .ml-20 {
+    margin-left: 20px !important;
+  }
+  
+  .mr-20 {
+    margin-right: 20px !important;
+  }
+  
+  .mtn-20 {
+    margin-top: -20px !important;
+  }
+  
+  .mbn-20 {
+    margin-bottom: -20px !important;
+  }
+  
+  .mln-20 {
+    margin-left: -20px !important;
+  }
+  
+  .mrn-20 {
+    margin-right: -20px !important;
+  }
+  
+  .mt-25 {
+    margin-top: 25px !important;
+  }
+  
+  .mb-25 {
+    margin-bottom: 25px !important;
+  }
+  
+  .ml-25 {
+    margin-left: 25px !important;
+  }
+  
+  .mr-25 {
+    margin-right: 25px !important;
+  }
+  
+  .mtn-25 {
+    margin-top: -25px !important;
+  }
+  
+  .mbn-25 {
+    margin-bottom: -25px !important;
+  }
+  
+  .mln-25 {
+    margin-left: -25px !important;
+  }
+  
+  .mrn-25 {
+    margin-right: -25px !important;
+  }
+  
+
+
+
+  /* cartshopping css */
+
+
+
+  /*Section Spacing*/
+.section-padding {
+  padding-top: 500px;
+  padding-bottom: 100px;
+}
+ 
+.section-margin {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 650px) {
+  .section-margin {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+
+/*Section Title*/
+.section-title {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.section-title .title {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .section-title {
+    margin-bottom: 40px;
+  }
+  .section-title .title {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .section-title {
+    margin-bottom: 35px;
+  }
+  .section-title .title {
+    font-size: 24px;
+  }
+}
+
+/*Page banner*/
+.page-banner {
+  background-image: url( );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 5% 0;
+}
+
+.page-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .page-title {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .page-title {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .page-title {
+    font-size: 20px;
+  }
+}
+
+/*Page Breadcrumb*/
+.page-breadcrumb {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.page-breadcrumb li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1;
+  padding-top: 2px;
+  padding-right: 8px;
+}
+
+.page-breadcrumb li + li::before {
+  content: "\f105";
+  font-family: "FontAwesome";
+  line-height: 1;
+  margin-top: -2px;
+  margin-right: 8px;
+}
+
+.page-breadcrumb li a {
+  line-height: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  .page-breadcrumb {
+    font-size: 14px;
+  }
+}
+
+/*Page Pagination*/
+.page-pagination ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin-right: -15px;
+  margin-bottom: -15px;
+}
+
+.page-pagination ul li {
+  line-height: 48px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  font-weight: 600;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.page-pagination ul li a {
+  display: block;
+  border: none;
+  background-color: #151515;
+  color: #ffffff;
+}
+
+.page-pagination ul li a i {
+  font-size: 20px;
+  line-height: 44px;
+  display: block;
+}
+
+.page-pagination ul li a:hover {
+  background-color: #0163D2;
+  color: #ffffff;
+}
+
+.page-pagination ul li.page-numbers {
+  width: auto;
+}
+
+.page-pagination ul li.page-numbers a {
+  padding: 0 20px;
+}
+
+.page-pagination ul li.active {
+  background-color: #0163D2;
+  color: #ffffff;
+}
+
+/*Form Elements*/
+label {
+  display: block;
+  font-size: 14px;
+  line-height: 1;
+  margin-bottom: 5px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* input:not([type="submit"]) {
+  width: 100%;
+  border-radius: 50px;
+  height: 40px;
+  border: 1px solid #dddddd;
+  line-height: 24px;
+  padding: 7px 20px 3px;
+  background-color: transparent;
+} */
+
+textarea {
+  width: 100%;
+  border-radius: 10px;
+  height: 120px;
+  border: 1px solid #dddddd;
+  line-height: 24px;
+  padding: 11px 20px 7px;
+  background-color: transparent;
+}
+
+.check-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-right: 30px;
+}
+
+.check-box:last-child {
+  margin-right: 0;
+}
+
+.check-box input[type="checkbox"] {
+  display: none;
+}
+
+.check-box input[type="checkbox"] + label {
+  position: relative;
+  padding-left: 30px;
+  padding-top: 2px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #151515;
+  margin: 0;
+}
+
+.check-box input[type="checkbox"] + label::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  display: block;
+  border: 2px solid #999999;
+  content: "";
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.check-box input[type="checkbox"] + label::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  content: "\f00c";
+  font-family: Fontawesome;
+  font-size: 12px;
+  line-height: 20px;
+  opacity: 0;
+  color: #151515;
+  width: 20px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.check-box input[type="checkbox"]:checked + label::before {
+  border: 2px solid #151515;
+}
+
+.check-box input[type="checkbox"]:checked + label::after {
+  opacity: 1;
+}
+
+.nice-select {
+  width: 100%;
+  border-radius: 50px;
+  height: 40px;
+  border: 1px solid #dddddd;
+  line-height: 24px;
+  padding: 9px 20px 3px;
+  background-color: transparent;
+}
+
+.nice-select::after {
+  border-color: #151515;
+}
+
+.nice-select .current {
+  display: block;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #151515;
+  border: none;
+  text-transform: uppercase;
+  line-height: 30px;
+  padding: 7px 30px 3px;
+  border-radius: 50px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.btn:hover {
+  background-color: #0163D2;
+  color: #ffffff;
+}
+
+.btn-white {
+  font-size: 14px;
+  font-weight: 700;
+  color: #151515;
+  background-color: #ffffff;
+  border: none;
+  text-transform: uppercase;
+  line-height: 30px;
+  padding: 7px 30px 3px;
+  border-radius: 50px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.btn-white:hover {
+  background-color: #0163D2;
+  color: #ffffff;
+}
+
+.accordion .card {
+  border: none;
+  border-radius: 0;
+  border-top: 1px solid #eeeeee;
+}
+
+.accordion .card .card-header {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.accordion .card .card-header [data-toggle="collapse"] {
+  display: block;
+  padding: 15px 0;
+  border: none;
+  background-color: transparent;
+  margin: 0;
+  font-size: 20px;
+  font-family: "Khula", sans-serif;
+  color: #151515;
+}
+
+.accordion .card .card-header [data-toggle="collapse"]::after {
+  font-size: 90%;
+  content: "\f107";
+  font-family: "FontAwesome";
+  margin-left: 15px;
+  color: #0163D2;
+}
+
+.accordion .card .collapse, .accordion .card .collapsing {
+  margin: 0;
+}
+
+.accordion .card .collapse .card-body, .accordion .card .collapsing .card-body {
+  padding: 0 0 20px;
+}
+
+.list-bullet {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.list-bullet li {
+  line-height: 2;
+}
+
+.list-bullet li::before {
+  content: "\f111";
+  font-size: 8px;
+  font-family: "FontAwesome";
+  color: #0163D2;
+  margin-right: 10px;
+  position: relative;
+  top: -2px;
+}
+
+.list-check-square-o {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.list-check-square-o li {
+  line-height: 2;
+}
+
+.list-check-square-o li::before {
+  content: "\f046";
+  font-family: "FontAwesome";
+  color: #0163D2;
+  margin-right: 10px;
+  position: relative;
+  top: 0;
+}
+
+.nav-tabs {
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.nav-tabs .nav-item {
+  margin: 0;
+}
+
+.nav-tabs .nav-item .nav-link {
+  margin: 0;
+  border: none;
+  padding: 15px 20px;
+  position: relative;
+  border-right: 1px solid #eeeeee;
+}
+
+.nav-tabs .nav-item .nav-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #0163D2;
+  opacity: 0;
+}
+
+.nav-tabs .nav-item .nav-link.active::before {
+  opacity: 1;
+}
+
+.tab-content:not(:first-child) {
+  margin-top: 25px;
+}
+
+.skill + .skill {
+  margin-top: 40px;
+}
+
+.skill .progress {
+  border-radius: 0;
+  background-color: #ffffff;
+  height: 10px;
+}
+
+.skill .progress .progress-bar {
+  border-radius: 0;
+  background-color: #0163D2;
+}
+
+.skill .text {
+  font-size: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Khula", sans-serif;
+  line-height: 1;
+  margin-top: 7px;
+}
+
+.skill .text .value {
+  font-size: 14px;
+  margin-left: 15px;
+  color: #0163D2;
+  margin-top: 2px;
+}
+
+blockquote {
+  background-color: #f6f6f6;
+  padding: 20px 30px;
+}
+
+blockquote::before {
+  content: '\f10d';
+  font-family: "FontAwesome";
+  font-size: 36px;
+  line-height: 1;
+  margin-right: 5px;
+  position: relative;
+  bottom: -3px;
+  color: #0163D2;
+}
+
+blockquote p {
+  display: inline;
+  font-size: 20px;
+  font-style: italic;
+  color: #151515;
+  line-height: 1.35;
+  font-weight: 500;
+}
